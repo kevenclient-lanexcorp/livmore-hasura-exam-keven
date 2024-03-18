@@ -1,0 +1,1 @@
+CREATE TABLE "public"."workspace_types" ("id" serial NOT NULL, "name" text NOT NULL, "active" boolean NOT NULL DEFAULT true, "created_at" timestamptz NOT NULL DEFAULT now(), "updated_at" timestamptz NOT NULL DEFAULT now(), "deleted_at" timestamptz, PRIMARY KEY ("id") );

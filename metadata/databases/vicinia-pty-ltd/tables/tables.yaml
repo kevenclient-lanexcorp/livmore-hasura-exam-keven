@@ -1,0 +1,5 @@
+- "!include public_cities.yaml"
+- "!include public_price_types.yaml"
+- "!include public_workspace_prices.yaml"
+- "!include public_workspace_types.yaml"
+- "!include public_workspaces.yaml"

@@ -1,0 +1,13 @@
+SET check_function_bodies = false;
+SELECT pg_catalog.setval('public.workspace_prices_id_seq', 1, false);
+INSERT INTO public.workspace_prices (workspace_id, price_type_id, value) VALUES (1, 1, 40);
+INSERT INTO public.workspace_prices (workspace_id, price_type_id, value) VALUES (1, 2, 20);
+INSERT INTO public.workspace_prices (workspace_id, price_type_id, value) VALUES (1, 3, 10);
+INSERT INTO public.workspace_prices (workspace_id, price_type_id, value) VALUES (2, 2, 20);
+INSERT INTO public.workspace_prices (workspace_id, price_type_id, value) VALUES (2, 3, 10);
+INSERT INTO public.workspace_prices (workspace_id, price_type_id, value) VALUES (3, 2, 20);
+INSERT INTO public.workspace_prices (workspace_id, price_type_id, value) VALUES (3, 3, 10);
+INSERT INTO public.workspace_prices (workspace_id, price_type_id, value) VALUES (4, 3, 10);
+INSERT INTO public.workspace_prices (workspace_id, price_type_id, value) VALUES (5, 1, 40);
+INSERT INTO public.workspace_prices (workspace_id, price_type_id, value) VALUES (5, 2, 20);
+INSERT INTO public.workspace_prices (workspace_id, price_type_id, value) VALUES (5, 3, 10);
